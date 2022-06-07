@@ -17,3 +17,4 @@ code {
 /* git push --set-upstream npm-calendar work */
 /* develop */
 /* What command would create the c alias for the commit command (at the global, or user level)? */
+/* git config --global alias.c commit */
