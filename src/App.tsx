@@ -9,6 +9,10 @@ import { getMonth } from "./utils";
 function App() {
   const [currenMonth, setCurrentMonth] = useState(getMonth());
   const { monthIndex, showEventModal } = useContext(GlobalContext);
+  console.log(
+    "🚀 ~ file: App.tsx ~ line 12 ~ App ~ showEventModal",
+    showEventModal
+  );
 
   useEffect(() => {
     setCurrentMonth(getMonth(monthIndex));

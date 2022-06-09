@@ -11,6 +11,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "dayjs": "^1.11.2",
+    "postcss-cli": "^9.1.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
@@ -22,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tailwind:watch": "postcss -w src/index.css -o src/build.css"
+    "css": "postcss -w src/index.css -o src/build.css"
   },
   "eslintConfig": {
     "extends": [
@@ -44,7 +45,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.13",
+    "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
   }
 }
